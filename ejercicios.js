@@ -30,4 +30,11 @@ console.log((A+B == 8) && (A-B == 2));// TRUE
 console.log((A+B == 8) || (A-B == 6));  //TRUE
 console.log(A > 3 && B > 3 && C < 3); //FALSE             	
 console.log(A > 3 && B >= 3 && C < -3);  //TRUE
-
+// Calcular si un número es mayor a otro y también si son iguales
+var n1=50;
+var n2=10;
+console.log(n1);
+console.log(n2);
+if(n1>n2){console.log(`${n1} es mayor que ${n2}`);
+} else if(n1==n2){console.log(`ambos son iguales`);
+} else { console.log(`${n1} es menor que ${n2}`)};
