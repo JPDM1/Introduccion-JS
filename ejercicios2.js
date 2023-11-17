@@ -4,7 +4,7 @@ var color= "verde"
 if(color == "rojo"){console.log(`Usted no puede pasar.\nExtreme sus precausiones`);
 } else {console.log("Sí puede pasar.\nPero con cuidado!!")};//tanto con `` y "" funcionan igual a ambos casos
 
-// //Mostrar si un número es primo
+//Mostrar si un número es primo
 var n=10;
 var i=2;
 while(i<n){if(n % i != 0){i+=1}else{break}};
