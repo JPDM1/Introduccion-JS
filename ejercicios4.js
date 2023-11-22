@@ -28,14 +28,15 @@
 //              i++;
 //             }
 // Horas, minutos y segundos
-let H=0;
-let M=0;
-var T=3600*23;
-if(T>=3600*24){console.log("Es mayor que un día");
-             } else {
-while (3600*H<=T && H <24) {H++}
-H--;
-while(3600*H+60*M<=T){M++}
-M--;
-console.log(`${H}:${M}:${T-(3600*H+60*M)}`);
-             }
+// let H=0;
+// let M=0;
+// var T=3600*23+556;
+// if(T>=3600*24){console.log("Es mayor que un día");
+//              } else {
+// while (3600*H<=T && H <24) {H++}
+// H--;
+// while(3600*H+60*M<=T){M++}
+// M--;
+// console.log(`${H}:${M}:${T-(3600*H+60*M)}`);
+//              }
+

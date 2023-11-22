@@ -16,3 +16,7 @@
 // Imagen
 let star= "*";
 for (let index = 1; index <=10; index++) { console.log(star.repeat(index))};
+//lññ
+if(3>1){console.log("bien")};
+
+
