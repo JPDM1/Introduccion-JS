@@ -18,5 +18,7 @@ let star= "*";
 for (let index = 1; index <=10; index++) { console.log(star.repeat(index))};
 //lññ
 if(3>1){console.log("bien")};
-
+let v=[[1,2,3],[4,5,6],[7,8,9]];
+let d= Math.
+console.log(d);
 
