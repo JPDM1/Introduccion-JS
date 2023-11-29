@@ -1,3 +1,5 @@
+DROP DATABASE IF NOT EXISTS instituto;
+CREATE DATABASE instituto;
 USE instituto;
 DROP PROCEDURE IF EXISTS validar_telf; 
 DELIMITER //
