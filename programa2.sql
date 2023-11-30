@@ -1,4 +1,4 @@
-DROP DATABASE IF NOT EXISTS instituto;
+DROP DATABASE IF EXISTS instituto;
 CREATE DATABASE instituto;
 USE instituto;
 DROP PROCEDURE IF EXISTS validar_telf; 
