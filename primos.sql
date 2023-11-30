@@ -9,16 +9,14 @@ CREATE PROCEDURE es_primo(IN n INT,OUT sentencia BOOLEAN)
 BEGIN
      DECLARE i INT DEFAULT 2;  
      SET sentencia = TRUE;
-     IF n <=3 THEN
-       SET sentencia = FALSE;
-     ELSE 
-       WHILE i < n DO
+     IF n > 3 THEN
+	    WHILE i < n DO
 			 IF MOD(n,i)=0 THEN
 				SET sentencia= FALSE;
 			 END IF;
              SET i = i +1;
-	  END WHILE;
-	END IF;
+	   END WHILE;
+	 END IF;
 END 
 // DELIMITER ;
 -- Insertando con while
@@ -36,7 +34,7 @@ WHILE fila <= numero DO
 END WHILE;
 END
 // DELIMITER ;
-CALL primos(100);
+CALL primos(101);
 SELECT * FROM numeros;
 -- CALL es_primo(10,@sentencia);
 -- SELECT @sentencia;
