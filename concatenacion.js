@@ -9,5 +9,4 @@ var any=2023;
 //Quiero imprimir: "Hoy es 3 de noviembre de 2023"
 console.log("Hoy es "+dia+" de "+mes+ " de "+ any);
 console.log(
-    `hoy es ${dia} de ${mes} de ${any}` 
-);
+    `hoy es ${dia} de ${mes} de ${any}`);
